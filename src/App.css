@@ -1,0 +1,170 @@
+*{
+  margin: 0%;
+}
+.App{
+ background: rgb(69,93,122);
+background: linear-gradient(90deg, rgba(69,93,122,1) 51%, rgba(35,49,66,1) 100%);
+min-height: 100vh;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.title{
+  font-size: 300%;
+}
+
+.Card{
+ background: #0b0b0b ;
+  min-width: 100px;
+  color: white;
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px;
+  border: solid 3px rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 7px;
+  
+
+}
+.container{
+  margin: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+ 
+}
+
+.form{
+  background-color: #1e234b;
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 15px;
+  max-width: 100%;
+  border: solid 3px rgb(0, 0, 0);
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  
+}
+.form-items{
+  padding: 5px;
+
+}
+
+#firstName{
+  border-radius: 15px;
+}
+#lastName{
+  border-radius: 15px;
+}
+#lastn{
+  margin-left: 10px;
+}
+#email{
+  border-radius: 15px;
+}
+#password{
+  border-radius: 15px;
+}
+#birthday{
+  border-radius: 15px;
+}
+.form-btn{
+  min-width: 100%;
+  min-height: 30px;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  margin-top: 30px;
+  background-color: #1e234b;
+  color: aliceblue;
+  
+
+}
+.form-btn:hover{
+  background-color: rgb(159, 187, 38);
+}
+.editAndDelete{
+  margin-top: 10%;
+  display: flex;
+  
+}
+span{
+  color: rgb(159, 187, 38);
+}
+.delete{
+  background-color: rgb(192, 3, 3);
+  border-radius: 10px;
+  padding: 5px;
+}
+.delete:hover{
+  background-color: red;
+}
+.updatecard{
+  
+  border-radius: 10px;
+  margin-right: 5px;
+}
+.updatecard:hover{
+  background-color: grey;
+}
+
+#email{
+  width: 75%;
+}
+
+#submit{
+  width: 80px;
+}
+#submit:hover{
+  background-color:rgb(159, 187, 38) ;
+}
+
+@media(max-width:650px){
+ #firstName{
+   width: 25%;
+ }
+ #lastName{
+   width: 25%;
+ }
+ #email{
+   width: 50%;
+ }
+}
+
+@media(max-width:520px){
+  .title{
+    transform: scale(1);
+  }
+  #firstName{
+    width: 20%;
+  }
+  #lastName{
+    width: 20%;
+  }
+  #email{
+    width: 60%;
+  }
+}
+
+@media(max-width:437px){
+  #firstName{
+    width: 55%;
+  }
+  #lastName{
+    width: 58%;
+  }
+  #email{
+    width: 50%;
+  }
+  #password{
+    width: 60%;
+  }
+  
+}
+
